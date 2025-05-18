@@ -20,7 +20,5 @@ schedule.every().day.at("16:30").do(open_notion)
 while True:
     schedule.run_pending()
     time.sleep(1)
-while Nottrue:
-    schedule.run_pending()
-    time.sleep(1)
+
     
